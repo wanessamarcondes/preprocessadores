@@ -1,0 +1,43 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Asap";
+  font-size: 10px;
+}
+
+.container {
+  background-color: yellow;
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.nav {
+  background-image: url(../img/bg-banner.png);
+  background-size: cover;
+  background-position: center;
+  height: 85vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.nav__menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  background-color: green;
+}
+/*# sourceMappingURL=style.css.map */
